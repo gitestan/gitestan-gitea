@@ -226,8 +226,8 @@ var (
 			Description string
 			Keywords    string
 		}{
-			Author:      "Gitea - Git with a cup of tea",
-			Description: "Gitea (Git with a cup of tea) is a painless self-hosted Git service written in Go",
+			Author:      "Gitestan",
+			Description: "Gitestan, yet another fork of gitea!",
 			Keywords:    "go,git,self-hosted,gitea",
 		},
 	}
