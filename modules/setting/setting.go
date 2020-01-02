@@ -545,7 +545,7 @@ func NewContext() {
 	RouterLogLevel = log.FromString(Cfg.Section("log").Key("ROUTER_LOG_LEVEL").MustString("Info"))
 
 	sec := Cfg.Section("server")
-	AppName = Cfg.Section("").Key("APP_NAME").MustString("Gitea: Git with a cup of tea")
+	AppName = Cfg.Section("").Key("APP_NAME").MustString("Gitestan, yet another fork of gitea")
 
 	Protocol = HTTP
 	switch sec.Key("PROTOCOL").String() {
